@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scanDirectoryTest2", "scanDirectoryTest2\scanDirectoryTest2.csproj", "{F89CFB76-0019-4151-B56C-1A3B1976750F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IUnification", "C:\Users\ahmed\Documents\GitHub\IUnification\source\IUnification.csproj", "{317BD4C1-A893-4A6D-9EE2-5F33167499F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F89CFB76-0019-4151-B56C-1A3B1976750F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89CFB76-0019-4151-B56C-1A3B1976750F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89CFB76-0019-4151-B56C-1A3B1976750F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89CFB76-0019-4151-B56C-1A3B1976750F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317BD4C1-A893-4A6D-9EE2-5F33167499F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317BD4C1-A893-4A6D-9EE2-5F33167499F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317BD4C1-A893-4A6D-9EE2-5F33167499F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317BD4C1-A893-4A6D-9EE2-5F33167499F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
