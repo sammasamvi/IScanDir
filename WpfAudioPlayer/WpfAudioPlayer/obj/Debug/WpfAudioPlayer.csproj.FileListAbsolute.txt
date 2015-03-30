@@ -27,3 +27,6 @@ L:\WpfAudioPlayer\WpfAudioPlayer\obj\Debug\WpfAudioPlayer.csproj.GenerateResourc
 E:\TeamProjectWork\WpfAudioPlayer\WpfAudioPlayer\bin\Debug\WpfAudioPlayer.exe.config
 E:\TeamProjectWork\WpfAudioPlayer\WpfAudioPlayer\obj\Debug\WpfAudioPlayer.exe
 E:\TeamProjectWork\WpfAudioPlayer\WpfAudioPlayer\obj\Debug\WpfAudioPlayer.pdb
+C:\Users\ahmed\Documents\GitHub\IScanDir\WpfAudioPlayer\WpfAudioPlayer\bin\Debug\WpfAudioPlayer.exe.config
+C:\Users\ahmed\Documents\GitHub\IScanDir\WpfAudioPlayer\WpfAudioPlayer\obj\Debug\WpfAudioPlayer.exe
+C:\Users\ahmed\Documents\GitHub\IScanDir\WpfAudioPlayer\WpfAudioPlayer\obj\Debug\WpfAudioPlayer.pdb

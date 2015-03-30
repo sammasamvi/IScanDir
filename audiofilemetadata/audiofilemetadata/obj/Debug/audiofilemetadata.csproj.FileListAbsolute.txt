@@ -30,3 +30,6 @@ E:\TeamProjectWork\audiofilemetadata\audiofilemetadata\obj\Debug\audiofilemetada
 E:\TeamProjectWork\audiofilemetadata\audiofilemetadata\obj\Debug\audiofilemetadata.g.resources
 E:\TeamProjectWork\audiofilemetadata\audiofilemetadata\obj\Debug\audiofilemetadata.Properties.Resources.resources
 E:\TeamProjectWork\audiofilemetadata\audiofilemetadata\obj\Debug\audiofilemetadata.csproj.GenerateResource.Cache
+C:\Users\ahmed\Documents\GitHub\IScanDir\audiofilemetadata\audiofilemetadata\bin\Debug\audiofilemetadata.exe.config
+C:\Users\ahmed\Documents\GitHub\IScanDir\audiofilemetadata\audiofilemetadata\obj\Debug\audiofilemetadata.exe
+C:\Users\ahmed\Documents\GitHub\IScanDir\audiofilemetadata\audiofilemetadata\obj\Debug\audiofilemetadata.pdb

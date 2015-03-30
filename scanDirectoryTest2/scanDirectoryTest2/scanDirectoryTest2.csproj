@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="ScanDir.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScanPluginProperties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
