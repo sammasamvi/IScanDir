@@ -13,8 +13,8 @@ namespace scanDirectoryTest2
     class ScanDir : IMetadataContainer
     {
 
-        Uri Datasource;
-        TimeSpan Duration;
+
+
 
         /// <summary>
         /// Test only: fo testing scanDir code in console application.

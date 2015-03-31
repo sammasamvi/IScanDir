@@ -26,3 +26,4 @@ E:\TeamProjectWork\scanDirectoryTest2\scanDirectoryTest2\bin\Debug\Mp3Lib.pdb
 C:\Users\ahmed\Documents\GitHub\IScanDir\scanDirectoryTest2\scanDirectoryTest2\bin\Debug\scanDirectoryTest2.exe.config
 C:\Users\ahmed\Documents\GitHub\IScanDir\scanDirectoryTest2\scanDirectoryTest2\obj\Debug\scanDirectoryTest2.exe
 C:\Users\ahmed\Documents\GitHub\IScanDir\scanDirectoryTest2\scanDirectoryTest2\obj\Debug\scanDirectoryTest2.pdb
+C:\Users\ahmed\Documents\GitHub\IScanDir\scanDirectoryTest2\scanDirectoryTest2\obj\Debug\scanDirectoryTest2.csprojResolveAssemblyReference.cache

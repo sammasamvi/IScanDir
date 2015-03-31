@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MetadataContainer.cs" />
     <Compile Include="ScanDir.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScanPluginProperties.cs" />

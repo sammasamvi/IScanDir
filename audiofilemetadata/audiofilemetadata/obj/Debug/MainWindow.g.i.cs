@@ -40,7 +40,7 @@ namespace audiofilemetadata {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 11 "..\..\MainWindow.xaml"
+        #line 12 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblAlbum;
         
@@ -48,7 +48,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 12 "..\..\MainWindow.xaml"
+        #line 13 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblArtist;
         
@@ -56,7 +56,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 13 "..\..\MainWindow.xaml"
+        #line 14 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblGenre;
         
@@ -64,7 +64,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 14 "..\..\MainWindow.xaml"
+        #line 15 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblTitle;
         
@@ -72,7 +72,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 15 "..\..\MainWindow.xaml"
+        #line 16 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblYear;
         
@@ -80,7 +80,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 16 "..\..\MainWindow.xaml"
+        #line 17 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblDuration;
         
@@ -88,7 +88,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 19 "..\..\MainWindow.xaml"
+        #line 20 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblFile;
         
@@ -96,7 +96,7 @@ namespace audiofilemetadata {
         #line hidden
         
         
-        #line 20 "..\..\MainWindow.xaml"
+        #line 21 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox lblLyrics;
         
@@ -153,7 +153,7 @@ namespace audiofilemetadata {
             return;
             case 7:
             
-            #line 17 "..\..\MainWindow.xaml"
+            #line 18 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.btnSelect_Click);
             
             #line default
@@ -161,7 +161,7 @@ namespace audiofilemetadata {
             return;
             case 8:
             
-            #line 18 "..\..\MainWindow.xaml"
+            #line 19 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.btnRead_Click);
             
             #line default
