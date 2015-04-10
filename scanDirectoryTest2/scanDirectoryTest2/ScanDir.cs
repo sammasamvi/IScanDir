@@ -10,11 +10,8 @@ using IUnification.Models.Interfaces;
 
 namespace scanDirectoryTest2
 {
-    class ScanDir : IMetadataContainer
+    class ScanDir
     {
-
-
-
 
         /// <summary>
         /// Test only: fo testing scanDir code in console application.
@@ -25,11 +22,16 @@ namespace scanDirectoryTest2
             DirectoryInfo di = new DirectoryInfo("E:\\");
             FullDirList(di, "*.mp3");
 
-            Console.WriteLine("Scan Complete");
-           
+            Console.WriteLine("Scan Completefgdffgdgdafafafgfffffffffffffffff");
+
             Console.Read();
+
+          
         }
 
+        /// <summary>
+        /// Holds the list of audio files found.
+        /// </summary>
         public static List<FileInfo> files = new List<FileInfo>();  
 
         /// <summary>
@@ -52,19 +54,11 @@ namespace scanDirectoryTest2
                 {
                     Console.WriteLine("File {0}", f.FullName);
                     files.Add(f);
-
-                    /*Using TagLib third party Library to find audio file metadata.
-                    TagLib.File file = TagLib.File.Create(f.FullName);
-                    string Title = file.Tag.Title;
-                    string[] Artist = file.Tag.Performers;
-                    string Album = file.Tag.Album;
-                    uint Year = file.Tag.Year;
-                    TimeSpan Duration = file.Properties.Duration;*/
                 }
             }
             catch
             {
-                Console.WriteLine("Directory {0}  \n could not be accessed!!!!", dir.FullName);
+                Console.WriteLine("Directory {0}  \n could not be accessed", dir.FullName);
                 return;  
             }
             ///
@@ -79,15 +73,16 @@ namespace scanDirectoryTest2
         /// Method for looking up metadata for audio file. 
         /// </summary>
         /// <param name="f"></param>
-        public void FileMetadata(FileInfo f)
+        public static void FileMetadata(FileInfo f)
         {
             //Using TagLib third party Library to find audio file metadata.
-            TagLib.File file = TagLib.File.Create(f.FullName);
+            TagLib.File file = TagLib.File.Create(@"E:\Kalimba.mp3");
             string Title = file.Tag.Title;
             string[] Artist = file.Tag.Performers;
             string Album = file.Tag.Album;
             uint Year = file.Tag.Year;
             TimeSpan Duration = file.Properties.Duration;
+
         }
 
     }

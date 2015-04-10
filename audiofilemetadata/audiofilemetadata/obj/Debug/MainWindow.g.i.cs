@@ -103,6 +103,14 @@ namespace audiofilemetadata {
         #line default
         #line hidden
         
+        
+        #line 30 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox FilesFound;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -172,6 +180,9 @@ namespace audiofilemetadata {
             return;
             case 10:
             this.lblLyrics = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 11:
+            this.FilesFound = ((System.Windows.Controls.TextBox)(target));
             return;
             }
             this._contentLoaded = true;

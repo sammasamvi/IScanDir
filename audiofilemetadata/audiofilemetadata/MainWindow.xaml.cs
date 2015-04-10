@@ -32,6 +32,11 @@ namespace audiofilemetadata
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSelect_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -42,9 +47,15 @@ namespace audiofilemetadata
             }
 
         }
-
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnRead_Click(object sender, EventArgs e)
         {
+            
             TagLib.File mp3 = TagLib.File.Create(lblFile.Text);
             lblAlbum.Text = mp3.Tag.Album;
             lblArtist.Text = GetAllStringsFromArray(mp3.Tag.AlbumArtists, ",");   // Tag.AlbumAritst is a string array 
@@ -56,6 +67,12 @@ namespace audiofilemetadata
    
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="strArray"></param>
+        /// <param name="strDelimeter"></param>
+        /// <returns></returns>
         public string GetAllStringsFromArray(string[] strArray, string strDelimeter)
         {
             string strFinal = string.Empty;

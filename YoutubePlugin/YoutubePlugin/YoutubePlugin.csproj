@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F89CFB76-0019-4151-B56C-1A3B1976750F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{A9C9EF1F-3A10-44DC-8EA2-10D874561E0D}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>scanDirectoryTest2</RootNamespace>
-    <AssemblyName>scanDirectoryTest2</AssemblyName>
+    <RootNamespace>YoutubePlugin</RootNamespace>
+    <AssemblyName>YoutubePlugin</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,21 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Id3Lib">
-      <HintPath>..\..\..\id3cs\Mp3Lib\bin\Release\Id3Lib.dll</HintPath>
-    </Reference>
-    <Reference Include="IUnification">
-      <HintPath>C:\Users\ahmed\Documents\GitHub\IUnification\source\bin\Release\IUnification.dll</HintPath>
-    </Reference>
-    <Reference Include="Mp3Lib">
-      <HintPath>..\..\..\id3cs\Mp3Lib\bin\Release\Mp3Lib.dll</HintPath>
-    </Reference>
-    <Reference Include="policy.2.0.taglib-sharp">
-      <HintPath>..\..\..\taglib-sharp-2.1.0.0-windows\Libraries\policy.2.0.taglib-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpZipLib">
-      <HintPath>..\..\..\id3cs\Mp3Lib\bin\Release\SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,16 +37,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="taglib-sharp">
-      <HintPath>..\..\..\taglib-sharp-2.1.0.0-windows\Libraries\taglib-sharp.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ScanDir.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
