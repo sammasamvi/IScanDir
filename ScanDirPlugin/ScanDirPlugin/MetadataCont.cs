@@ -12,14 +12,24 @@ namespace ScanDirPlugin
         /// <summary>
         /// This variable will be set when the user decides which scanned file to retreive metadata from.
         /// </summary>
-        public string AudioFileName { get; set; }
+        public string AudioFileName { get; set; }   // This is essentiall the same as the DataSource Property?
+                                                    // Consider just referencing datasrouce instead of duplicating information.
+                                                    // 
+                                                    // Another Note, this idealy shouldn't be user set, rather set
+                                                    // as you scan.
 
         
         string myTitle;
         public string myArtist;
         public string myAlbum;
         public uint myYear;
-        public TimeSpan myDuration;
+        public TimeSpan myDuration; // Why prepend everything with "my"?
+                                    // Consider using standard language layout 
+                                    // e.g "myArtist" becomes "Artist"
+                                    // or
+                                    // if the varibale is an internal reference i.e. myDuration for Duration
+                                    // use "private TimeSpan _Duration;" declaration the just add public "get"
+                                    // to the duration property.
 
         public string[] MetadataFieldNames = new string[] { "Title", "Artist", "Album", "Year", "Duration" };
 
@@ -39,13 +49,14 @@ namespace ScanDirPlugin
             string myAlbum = file.Tag.Album;
             uint myYear = file.Tag.Year;
             TimeSpan myDuration = file.Properties.Duration;
-        }
+        }   
 
         //******* Maybe change uri to string
         public Uri Datasource
         {
             get { return DirPath; }
-        }
+        }   // A uri allows for run-time checks and if you want to use a 
+            // string the code for that would be "new Uri(*your string variable*, UriKind.Absolute);"
 
         public IUnification.Models.Enums.DatasourceFormat DatasourceFormat
         {
@@ -63,7 +74,13 @@ namespace ScanDirPlugin
             
             
             throw new NotImplementedException();
-        }
+        }   // Why not use a switch, case return?
+            // for example :
+            // switch (MetadataField)
+            // {
+            //  case "Artist"
+            //      return myArtist;
+            // }
 
         public string[] MetadataFields
         {
